@@ -307,7 +307,7 @@ def _pkg_files_impl(ctx):
                     if have_it:
                         if have_it != dest_path:
                             # buildifier: disable=print
-                            print("same source mapped to different locations", rf, have_it, dest_path)
+                            # print("same source mapped to different locations", rf, have_it, dest_path)
                     else:
                         src_dest_paths_map[rf] = dest_path
 
